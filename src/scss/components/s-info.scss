@@ -1,0 +1,139 @@
+.s-info {
+  background: $whiteColor;
+  z-index: 11;
+  &__inner {
+    min-height: 100vh;
+  }
+  &__card {
+    padding: 0 44rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &--1 {
+      margin-bottom: -168rem;
+      .s-info__card-media {
+        width: 567rem;
+        margin-left: -58rem;
+        margin-right: -134rem;
+      }
+      .s-info__card-list {
+      }
+    }
+    &--2 {
+      .s-info__card-media {
+        width: 368rem;
+      }
+      .s-info__card-content {
+        padding-right: 10rem;
+        margin-left: -16rem;
+        order: -1;
+      }
+      .s-info__card-list {
+        margin-right: 60rem;
+        margin-left: 20rem;
+        font-size: 39rem;
+        li {
+          &:not(:last-child) {
+            margin-bottom: 37rem;
+          }
+        }
+      }
+    }
+    &-media {
+      flex-shrink: 0;
+      position: relative;
+    }
+    &-picture {
+      pointer-events: none;
+      user-select: none;
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+    &-content {
+      padding-top: 34rem;
+      flex-grow: 1;
+    }
+    &-networks {
+      font-size: 156rem;
+      &--1 {
+        margin-bottom: -18rem;
+      }
+      &--2 {
+        margin-bottom: 23rem;
+      }
+      &--3 {
+        margin-bottom: 57rem;
+        color: $blackColor;
+      }
+    }
+    &-subtitle {
+      margin: 0 0 35rem;
+      font-family: $ffGreenthOutline;
+      font-size: 93rem;
+      color: $accentColor;
+      text-transform: uppercase;
+      letter-spacing: -.085em;
+    }
+    &-list {
+      margin-right: -30rem;
+      margin-left: 8rem;
+      font-size: 43rem;
+      color: #606C78;
+    }
+    &-reviews {
+      margin: -496rem -140rem 0 -54rem;
+      &-info {
+        width: 254rem;
+        margin: 0 0 10rem -179rem;
+      }
+      &-likes {
+        width: 144rem;
+        margin: 0 0 -40rem auto;
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+      &-panel {
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+      &-list {
+        &-card {
+          border-radius: 18rem;
+          box-shadow: 0 0 30px rgba(0,0,0,.5);
+          overflow: hidden;
+          &:not(:last-child) {
+            margin-bottom: 18rem;
+          }
+          img {
+            width: 100%;
+            height: auto;
+            display: block;
+          }
+          &--1 {
+            width: 347rem;
+          }
+          &--2 {
+            width: 343rem;
+            margin-right: -20rem;
+            margin-left: 68rem;
+          }
+        }
+      }
+    }
+  }
+  &__networks {
+    margin: auto 0 -80rem 30rem;
+    padding-top: 50rem;
+    font-size: 156rem;
+    opacity: .1;
+  }
+}

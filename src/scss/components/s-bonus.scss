@@ -1,0 +1,56 @@
+.s-bonus {
+  background: url(../images/u-bonus-bg.png) center top / 100% auto #083563 no-repeat;
+  color: $whiteColor;
+  position: relative;
+  &__bg {
+    background: url(../images/bonus-appeal.svg) left bottom 28px / 100% auto no-repeat;
+    width: 258rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 28rem;
+    pointer-events: none;
+  }
+  &__inner {
+    display: flex;
+    min-height: 100vh;
+    padding: 101rem 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+  }
+  &__content {
+    margin: 0 0 0 34%;
+  }
+  &__suptitle {
+    margin: -20rem 0 -52rem 10rem;
+    font-weight: normal;
+    font-family: $ffMoonTime;
+    font-size: 205rem;
+    line-height: .5;
+    color: $whiteColor;
+    text-shadow: 0 0 28rem #8C52FF;
+    position: relative;
+    z-index: 1;
+  }
+  &__title {
+    margin: 0 0 16rem -6rem;
+    font-weight: normal;
+    font-size: 195rem;
+    font-family: $ffGoodTimeGrotesk;
+    text-transform: uppercase;
+    letter-spacing: -.085em;
+  }
+  &__list {
+    margin: 0 0 64rem;
+    &-card {
+      &:not(:last-child) {
+        margin-bottom: 38rem;
+      }
+    }
+  }
+  &__btn {
+    margin-left: 14rem;
+  }
+}

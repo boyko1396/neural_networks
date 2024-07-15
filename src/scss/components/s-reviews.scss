@@ -1,0 +1,69 @@
+.s-reviews {
+  background: $blackColor;
+  color: $whiteColor;
+  position: relative;
+  z-index: 1;
+  &__decor {
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+    z-index: -1;
+    &--1 {
+      width: 199rem;
+      top: 100rem;
+      right: 0;
+    }
+    &--2 {
+      width: 568rem;
+      bottom: -50rem;
+      left: -226rem;
+      z-index: 3;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  &__inner {
+    display: flex;
+    min-height: 100vh;
+    padding: 99rem 0 128rem;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  &__title {
+    margin: 0 0 -96rem;
+    font-weight: normal;
+    font-size: 460rem;
+    font-family: $ffHeadingNowTrial15;
+    color: $whiteColor;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__slider {
+    max-width: 774rem;
+  }
+  &__subtitle {
+    margin: -161rem 0 0;
+    font-weight: normal;
+    font-size: 660rem;
+    font-family: $ffHeadingNowTrial15;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: $whiteColor;
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .002em;
+  }
+  &__footer {
+    margin-top: auto;
+    padding-top: 50rem;
+    text-align: center;
+    &-appeal {
+      margin: 0;
+      font-size: 38rem;
+    }
+  }
+}

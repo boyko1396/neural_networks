@@ -1,0 +1,108 @@
+.s-intro {
+  background: $grayColor;
+  &__decor {
+    &--1 {
+      top: 212rem;
+      left: 92rem;
+    }
+    &--2 {
+      top: 642rem;
+      left: 158rem;
+    }
+    &--3 {
+      top: 1042rem;
+      right: 106rem;
+    }
+  }
+  &__inner {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  &__suptitle {
+    margin: 126rem 0 236rem;
+    font-family: $ffCocoGothic;
+    font-size: 42rem;
+    text-align: center;
+  }
+  &__subtitle {
+    margin: 0 0 10rem;
+    font-family: $ffPlayfairDisplay;
+    font-size: 37rem;
+    line-height: .79;
+    color: $accentColor;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+  }
+  &__hero {
+    margin: 0 0 180rem;
+    position: relative;
+    z-index: 0;
+    &-picture {
+      margin: 0 62rem 0 -420rem;
+      user-select: none;
+      pointer-events: none;
+      position: relative;
+      left: -32rem;
+      z-index: -1;
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+    &-title {
+      margin: -515rem 0 0;
+      font-weight: normal;
+      font-family: $ffGoodTimeGrotesk;
+      font-size: 126rem;
+      text-transform: uppercase;
+      letter-spacing: -.085em;
+      text-align: center;
+    }
+  }
+  &__date {
+    max-width: 756rem;
+    margin: auto auto 140rem;
+    padding-left: 14rem;
+    display: flex;
+    align-items: center;
+    &-left {
+      margin-right: 21rem;
+      flex-shrink: 0;
+    }
+    &-title {
+      margin: -.56em 0 4rem;
+      font-weight: normal;
+      font-family: $ffGreenthOutline;
+      font-size: 104rem;
+      color: $accentColor;
+      text-transform: uppercase;
+      letter-spacing: -.05em;
+    }
+    &-time {
+      font-family: $ffModel;
+      font-weight: 500;
+      font-size: 38rem;
+      text-transform: uppercase;
+      letter-spacing: -.05em;
+      text-align: center;
+    }
+    &-right {
+      margin-right: 10rem;
+      font-family: $ffCocoGothic;
+      font-size: 22rem;
+      line-height: 1.4;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+  }
+  &__description {
+    max-width: 756rem;
+    margin: 0 auto 50rem;
+    font-size: 22.9rem;
+    line-height: 1.2;
+    color: $grayColor2;
+  }
+}

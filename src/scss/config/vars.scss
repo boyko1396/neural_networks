@@ -1,0 +1,77 @@
+$siteResolution: 1px;
+$siteResolution: 0.092592592vw;
+$mainFont: 'Montserrat';
+$mainWeight: 400;
+$lineHeightSemi: 1.2;
+$lineHeightDefault: $lineHeightSemi;
+
+$containerWidth: 1260rem;
+
+$gap: 10rem;
+$gapFluid: 20rem;
+
+$whiteColor: #ffffff;
+$blackColor: #000;
+$blueColor: #004aad;
+$grayColor: #eef1f3;
+$grayColor2: #606c78;
+$grayColor3: #D7DAE3;
+$accentColor: $blueColor;
+
+$fontFamily: $mainFont, Arial, sans-serif;
+$ffMoonTime: 'MoonTime', Arial, sans-serif;
+$ffLaguna: 'Laguna', Arial, sans-serif;
+$ffSarpanch: 'Sarpanch', Arial, sans-serif;
+$StingerWide: 'Stinger Wide', Arial, sans-serif;
+$ffOptima: 'Optima', Arial, sans-serif;
+$ffGoodTimeGrotesk: 'GoodTime Grotesk', Arial, sans-serif;
+$ffMrDafoe: 'Mr Dafoe', Arial, sans-serif;
+$ffBaskervilleDisplayPTWeb: 'Baskerville Display PT Web', Arial, sans-serif;
+$ffAnton: 'Anton', Arial, sans-serif;
+$ffGreenthOutline: 'Greenth Outline', Arial, sans-serif;
+$ffNeueMontreal: 'Neue Montreal', Arial, sans-serif;
+$ffHeadingNowTrial15: 'Heading Now Trial 15', Arial, sans-serif;
+$ffModel: 'Model', Arial, sans-serif;
+$ffPlayfairDisplay: 'Playfair Display', Arial, sans-serif;
+$ffAnonymousPro: 'Anonymous Pro', Arial, sans-serif;
+$ffCocoGothic: 'Coco Gothic', Arial, sans-serif;
+
+$fontColor: $blackColor;
+$fontWeight: $mainWeight;
+
+$transition: all .4s 0ms;
+
+$xl: 1340px;
+$xl-mf: $xl + 1;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs + 1;
+
+:root {
+  --fs-default: var(--fs-3);
+  --fs-1: 30rem;
+  --fs-2: 20rem;
+  --fs-3: 16rem;
+  --fs-4: 14rem;
+  --fs-5: 13rem;
+  --fs-6: 12rem;
+  --fs-7: 10rem;
+  --fs-8: 9rem;
+  --fs-9: 8rem;
+  --fs-10: 18rem;
+  --fs-11: 22rem;
+
+  --gap: 10rem;
+  --gap-: -10rem;
+  --gap-fluid: 20rem;
+  --gap-fluid-: -20rem;
+}

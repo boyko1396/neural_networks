@@ -1,0 +1,93 @@
+.s-programs {
+  background: url(../images/u-programs-bg.png) right bottom 164rem/200rem auto no-repeat;
+  position: relative;
+  &:before {
+    background: linear-gradient(180deg, #083563 0%, #fff 100%);
+    width: 100%;
+    height: 60%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  &__inner {
+    display: flex;
+    min-height: 100vh;
+    padding: 252rem 0 130rem;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  &__suptitle {
+    margin: 0 0 -34rem;
+    font-weight: normal;
+    font-size: 100rem;
+    font-family: $ffGoodTimeGrotesk;
+    color: $whiteColor;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.085em;
+  }
+  &__title {
+    margin: 0 0 -8rem;
+    font-weight: 500;
+    font-size: 130rem;
+    font-family: $ffModel;
+    color: #49688D;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.085em;
+  }
+  &__marquee {
+    margin-bottom: -12rem;
+    font-size: 32rem;
+    font-family: $ffAnonymousPro;
+    .u-marquee__content {
+      animation-duration: 20s;
+    }
+  }
+  &__marquee-bottom {
+    font-size: 67rem;
+    font-family: $ffGoodTimeGrotesk;
+    text-transform: uppercase;
+    .u-marquee__content {
+      animation-duration: 10s;
+    }
+  }
+  &__title-bg {
+    margin: -168rem -80rem -456rem;
+    font-size: 701rem;
+    font-family: $ffHeadingNowTrial15;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: $whiteColor;
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__slider {
+    max-width: 876rem;
+    .u-slider__card-text {
+      margin: 65rem -28rem 40rem 10rem;
+      font-size: 43rem;
+      line-height: 1.2;
+      color: #606C78;
+      letter-spacing: -.075em;
+      li {
+        &:not(:last-child) {
+          margin-bottom: 48rem;
+        }
+      }
+    }
+  }
+  &__footer {
+    margin-top: auto;
+    padding-top: 60rem;
+    text-align: center;
+    &-btn {
+      min-width: 62%;
+      font-size: 65rem;
+      z-index: 3;
+    }
+  }
+}

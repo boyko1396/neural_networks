@@ -1,0 +1,62 @@
+.s-benefits {
+  background: $whiteColor;
+  position: relative;
+  z-index: 0;
+  &__decor {
+    width: 600rem;
+    position: absolute;
+    top: -124px;
+    left: -344rem;
+    user-select: none;
+    pointer-events: none;
+    z-index: -2;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  &__inner {
+    display: flex;
+    min-height: 100vh;
+    padding: 320rem 0 0;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  &__title {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 144rem;
+    font-weight: 500;
+    font-size: 88rem;
+    line-height: .92;
+    font-family: $ffModel;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.005em;
+  }
+  &__subtitle {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 34rem;
+    font-weight: normal;
+    font-size: 50rem;
+    font-family: $ffBaskervilleDisplayPTWeb;
+    text-align: center;
+  }
+  &__slider {
+    max-width: 900rem;
+  }
+  &__bg {
+    width: 100vw;
+    margin: auto 0 0 -5rem;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+}

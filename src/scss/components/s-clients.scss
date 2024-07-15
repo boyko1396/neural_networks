@@ -1,0 +1,42 @@
+.s-clients {
+  background: url(../images/u-clients-bg.jpg) center bottom / 100% auto no-repeat;
+  &__inner {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  &__suptitle {
+    margin: 246rem 0 -12rem;
+    font-size: 45rem;
+    font-family: $ffBaskervilleDisplayPTWeb;
+    color: #8D8D8D;
+    letter-spacing: -.05em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__slider {
+    max-width: 782rem;
+  }
+  &__footer {
+    max-width: 57%;
+    margin: auto auto 240rem;
+    padding-top: 100rem;
+    line-height: 1.2;
+    &-appeal {
+      background: $whiteColor;
+      margin: 0 0 64rem;
+      padding: 8rem 52rem;
+      font-size: 29rem;
+      color: #8D8D8D;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    }
+    &-title {
+      margin: 0;
+      font-size: 37rem;
+      font-weight: bold;
+      color: $whiteColor;
+      text-align: center;
+    }
+  }
+}

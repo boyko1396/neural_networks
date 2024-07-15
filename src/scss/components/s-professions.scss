@@ -1,0 +1,62 @@
+.s-professions {
+  background: linear-gradient(180deg, #eef1f3, #fff);
+  &:after {
+    background-position: center -140rem;
+  }
+  &__decor {
+    &--1 {
+      top: 0;
+      right: 0;
+    }
+  }
+  &__inner {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  &__suptitle {
+    max-width: 690rem;
+    margin: 168rem auto 163rem;
+    font-family: $ffBaskervilleDisplayPTWeb;
+    font-size: 44rem;
+    line-height: .79;
+    color: $accentColor;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+  }
+  &__subtitle {
+    margin: 0 0 7rem;
+    font-weight: normal;
+    font-size: 67rem;
+    line-height: .85;
+    font-family: $ffGoodTimeGrotesk;
+    color: $grayColor3;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.085em;
+  }
+  &__title {
+    margin: 0 0 184rem;
+    font-weight: normal;
+    font-size: 78rem;
+    line-height: .85;
+    font-family: $ffGoodTimeGrotesk;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.085em;
+  }
+  &__description {
+    max-width: 810rem;
+    margin: auto auto 20rem;
+    padding-top: 50rem;
+    font-size: 30.5rem;
+    line-height: 1.4;
+    font-family: $ffAnonymousPro;
+    text-align: center;
+  }
+  &__networks {
+    margin: 0 90rem 0 auto;
+    opacity: .08;
+  }
+}
