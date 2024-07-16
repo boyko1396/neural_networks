@@ -26,15 +26,6 @@
 }
 
 @font-face {
-  font-family: 'Laguna';
-  src: url('../fonts/Laguna-Regular.woff2') format('woff2'),
-       url('../fonts/Laguna-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Sarpanch';
   src: url('../fonts/Sarpanch-Regular.woff2') format('woff2'),
        url('../fonts/Sarpanch-Regular.woff') format('woff');
@@ -118,7 +109,7 @@
 @font-face {
   font-family: 'Heading Now Trial 15';
   src: url('../fonts/HeadingNowTrial-15Medium.woff2') format('woff2'),
-    url('../fonts/HeadingNowTrial-15Medium.woff') format('woff');
+       url('../fonts/HeadingNowTrial-15Medium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -126,9 +117,9 @@
 
 @font-face {
   font-family: 'Model';
-  src: url('../fonts/Model.woff2') format('woff2'),
-       url('../fonts/Model.woff') format('woff');
-  font-weight: 500;
+  src: url('../fonts/Model4FUnicase.woff2') format('woff2'),
+       url('../fonts/Model4FUnicase.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }

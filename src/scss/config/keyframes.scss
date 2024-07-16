@@ -1,0 +1,26 @@
+@keyframes marquee-bg-1 {
+  0% {
+    background-position: center 596rem;
+  }
+  100% {
+    background-position: center -600rem;
+  }
+}
+
+@keyframes marquee-bg-2 {
+  0% {
+    background-position: center 0;
+  }
+  100% {
+    background-position: center -1196rem;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

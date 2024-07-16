@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Model 4F Unicase';
+    src: url('Model4FUnicase.woff2') format('woff2'),
+        url('Model4FUnicase.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

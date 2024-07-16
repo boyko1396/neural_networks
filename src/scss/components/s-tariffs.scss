@@ -91,10 +91,10 @@
     &-title {
       margin: 0 0 13rem;
       font-weight: normal;
-      font-size: 68rem;
+      font-size: 72rem;
       line-height: 1;
-      font-family: $ffLaguna;
-      letter-spacing: -.005em;
+      font-family: $ffOptima;
+      letter-spacing: .08em;
       text-align: center;
       text-transform: uppercase;
       white-space: nowrap;
@@ -105,7 +105,7 @@
       text-align: center;
       border-collapse: collapse;
       td {
-          vertical-align: top;
+        vertical-align: top;
         &:last-child {
           :after {
             display: none;

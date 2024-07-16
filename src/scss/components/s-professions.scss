@@ -1,8 +1,5 @@
 .s-professions {
   background: linear-gradient(180deg, #eef1f3, #fff);
-  &:after {
-    background-position: center -140rem;
-  }
   &__decor {
     &--1 {
       top: 0;
@@ -45,6 +42,8 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -.085em;
+    position: relative;
+    z-index: 1;
   }
   &__description {
     max-width: 810rem;

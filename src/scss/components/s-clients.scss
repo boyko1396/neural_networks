@@ -1,12 +1,15 @@
 .s-clients {
   background: url(../images/u-clients-bg.jpg) center bottom / 100% auto no-repeat;
+  .container {
+    min-height: 0;
+  }
   &__inner {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
   &__suptitle {
-    margin: 246rem 0 -12rem;
+    margin: 166rem 0 -12rem;
     font-size: 45rem;
     font-family: $ffBaskervilleDisplayPTWeb;
     color: #8D8D8D;
@@ -16,15 +19,20 @@
   }
   &__slider {
     max-width: 782rem;
+    .u-slider__el {
+      margin: 0 -30rem;
+    }
+    .swiper-button {
+      top: 404rem;
+    }
   }
   &__footer {
-    max-width: 57%;
-    margin: auto auto 240rem;
-    padding-top: 100rem;
+    margin: 0 0 240rem;
+    padding-top: 70rem;
     line-height: 1.2;
     &-appeal {
       background: $whiteColor;
-      margin: 0 0 64rem;
+      margin: 0 0 54rem;
       padding: 8rem 52rem;
       font-size: 29rem;
       color: #8D8D8D;
