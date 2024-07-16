@@ -5,11 +5,10 @@
   }
   &__inner {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
   }
   &__suptitle {
-    margin: 166rem 0 -12rem;
+    margin: 116rem 0 -12rem;
     font-size: 45rem;
     font-family: $ffBaskervilleDisplayPTWeb;
     color: #8D8D8D;
@@ -41,7 +40,7 @@
     }
     &-title {
       margin: 0;
-      font-size: 37rem;
+      font-size: 36rem;
       font-weight: bold;
       color: $whiteColor;
       text-align: center;

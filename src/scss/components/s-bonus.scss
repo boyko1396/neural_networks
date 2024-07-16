@@ -29,8 +29,8 @@
     font-family: $ffMoonTime;
     font-size: 205rem;
     line-height: .5;
-    color: $whiteColor;
-    text-shadow: 0 0 28rem #8C52FF;
+    color: #E1D2FF;
+    text-shadow: 4rem 4rem 6rem #342CA8, 4rem 4rem 28rem #342CA8;
     position: relative;
     z-index: 1;
   }
@@ -52,5 +52,6 @@
   }
   &__btn {
     margin-left: 14rem;
+    box-shadow: 0 0 0 11rem #2172d5, 0 0 54rem 8rem rgba(255, 255, 255, .7), 0 5rem 1rem rgba(0, 0, 0, 0.4);
   }
 }

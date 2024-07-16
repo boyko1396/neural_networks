@@ -186,7 +186,7 @@
     padding: 0 30rem;
   }
   &__title {
-    margin: 18rem 0 22rem;
+    margin: 18rem -30rem 22rem;
     font-size: 62rem;
     line-height: .8;
     font-family: $ffGoodTimeGrotesk;
@@ -288,7 +288,6 @@
     margin: 0 25rem;
     font-size: 37rem;
     line-height: 1.2;
-    text-align: justify;
     &-text {
       color: #606C78;
       &:last-child {
@@ -466,4 +465,8 @@
       transform: scaleX(-1);
     }
   }
+}
+
+.text-through {
+  text-decoration: line-through;
 }

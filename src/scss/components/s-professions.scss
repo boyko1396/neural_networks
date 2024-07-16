@@ -1,5 +1,8 @@
 .s-professions {
   background: linear-gradient(180deg, #eef1f3, #fff);
+  .container {
+    min-height: 0;
+  }
   &__decor {
     &--1 {
       top: 0;
@@ -8,7 +11,7 @@
   }
   &__inner {
     display: flex;
-    min-height: 100vh;
+    min-height: 80vh;
     flex-direction: column;
   }
   &__suptitle {
@@ -36,7 +39,7 @@
   &__title {
     margin: 0 0 184rem;
     font-weight: normal;
-    font-size: 78rem;
+    font-size: 69rem;
     line-height: .85;
     font-family: $ffGoodTimeGrotesk;
     text-align: center;
@@ -48,7 +51,7 @@
   &__description {
     max-width: 810rem;
     margin: auto auto 20rem;
-    padding-top: 50rem;
+    padding-top: 70rem;
     font-size: 30.5rem;
     line-height: 1.4;
     font-family: $ffAnonymousPro;

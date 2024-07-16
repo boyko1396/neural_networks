@@ -11,9 +11,11 @@
     left: 0;
     z-index: -1;
   }
+  .container {
+    min-height: 0;
+  }
   &__inner {
     display: flex;
-    min-height: 100vh;
     padding: 252rem 0 130rem;
     flex-direction: column;
     position: relative;
@@ -34,7 +36,7 @@
     font-weight: normal;
     font-size: 130rem;
     font-family: $ffModel;
-    color: #49688D;
+    color: #a1ccff;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -.085em;
@@ -82,7 +84,8 @@
   }
   &__footer {
     margin-top: auto;
-    padding-top: 60rem;
+    padding-top: 160rem;
+    padding-bottom: 60rem;
     text-align: center;
     &-btn {
       min-width: 62%;
