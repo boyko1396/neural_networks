@@ -429,6 +429,38 @@
   }
 }
 
+.u-marquee-2 {
+  height: 82rem;
+  margin-right: -5rem;
+  margin-left: -5rem;
+  position: relative;
+  overflow-x: hidden;
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee2 12s linear infinite;
+  }
+  &__item {
+  }
+  .swiper-slide {
+    &:not(.swiper-slide-active) {
+      visibility: hidden !important;
+    }
+  }
+}
+
+@keyframes marquee2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 .color-accent {
   color: #5CB6F9;
 }

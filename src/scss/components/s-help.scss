@@ -3,6 +3,9 @@
   color: $whiteColor;
   position: relative;
   z-index: 0;
+  .container {
+    min-height: 0;
+  }
   &__video {
     position: absolute;
     top: 0;
@@ -22,7 +25,7 @@
   }
   &__inner {
     display: flex;
-    min-height: 100vh;
+    min-height: 0;
     flex-direction: column;
     position: relative;
     z-index: 1;
@@ -56,13 +59,13 @@
     }
   }
   &__body {
-    padding: 0 0 106rem;
+    padding: 0 0 126rem;
     &-decor {
       pointer-events: none;
       user-select: none;
       &--1 {
         width: 58rem;
-        margin: 20rem -180rem 240rem auto;
+        margin: 20rem -180rem 88rem auto;
       }
       &--2 {
         width: 128rem;
